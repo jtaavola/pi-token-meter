@@ -1,10 +1,6 @@
 # pi-token-meter
 
-A small [Pi](https://pi.dev/) package that displays model tokens per second
-
-```text
-42 tok/s
-```
+A small [Pi](https://pi.dev/) package that displays model tokens per second, e.g. `42 tok/s`.
 
 ## Installation
 
