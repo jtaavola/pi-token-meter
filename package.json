@@ -1,0 +1,30 @@
+{
+  "name": "pi-token-meter",
+  "version": "0.1.0",
+  "description": "Display tokens per second in Pi.",
+  "keywords": ["pi-package"],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jtaavola/pi-token-meter.git"
+  },
+  "license": "MIT",
+  "pi": {
+    "extensions": [
+      "./token-meter.ts"
+    ]
+  },
+  "peerDependencies": {
+    "@mariozechner/pi-coding-agent": "*"
+  },
+  "bugs": {
+    "url": "https://github.com/jtaavola/pi-token-meter/issues"
+  },
+  "homepage": "https://github.com/jtaavola/pi-token-meter#readme",
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "typescript": "^6.0.3"
+  }
+}
